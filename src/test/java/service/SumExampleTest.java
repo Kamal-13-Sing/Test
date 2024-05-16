@@ -6,13 +6,13 @@ import org.junit.Test;
 public class SumExampleTest {
 
     @Test
-    public void sumTest(){
+    public void sumTest() {
 
-        int result = SumExample.sum(5,6);
+        int actual = SumExample.sum(5,6);
 
         int expected = 11;
 
-        Assert.assertEquals(expected, result);
+        Assert.assertEquals(expected, actual);
 
     }
 
